@@ -1,9 +1,9 @@
 // import "dotenv/config";
-const fetch = require("node-fetch");
-const fs = require("fs");
-console.log("Hello Project.");
+// const fs = require("fs");
 
-const token = "";
+const fetch = require("node-fetch");
+console.log("Hello Fetch Template Project.");
+
 // uncomment below if you want to write to file, you can use the fs library 
 
 // const write_file = "sample.json";
@@ -20,6 +20,7 @@ const token = "";
 //     write_stream.write("]");
 // }
 
+const token = ""; // not being used but useful for authorization header if you need to pass in token
 const url = `https://api.github.com/users/yonglid`
 console.log("fetching: ", fetchEndpoint(url))
 async function fetchEndpoint(fetchUrl) {
@@ -73,6 +74,4 @@ async function fetchEndpoint(fetchUrl) {
         console.log(data)
     )
         .catch(err => console.log("Error fetching endpoint: " + err));
-    // let data = await fetchedEndpoint.json()
-
 }
