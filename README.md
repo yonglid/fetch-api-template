@@ -5,5 +5,5 @@
 4. Open package.json and you'll see a script command ```node fetch_api.js``` connected to easy script: ```npm fetch```. You can change the script call and the file path (i.e. if fetch_api.js is in a folder called 'src', then the command is: ```node src/fetch_api.js```)
 5. If you haven't already, run ```npm run fetch```, you should get a json back. 
 
-# Editting fetch_api.js
+# Editing fetch_api.js
 1. There is a `url` variable that you can replace the endpoint with your endpoint choice
