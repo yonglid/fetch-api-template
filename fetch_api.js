@@ -3,7 +3,7 @@ const fetch = require("node-fetch");
 const fs = require("fs");
 console.log("Hello Project.");
 
-const token = "b53896ad4f17b48225121956ae2c7aab489e002a";
+const token = "";
 // uncomment below if you want to write to file, you can use the fs library 
 
 // const write_file = "sample.json";
